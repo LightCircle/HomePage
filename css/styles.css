@@ -848,7 +848,8 @@ width: -webkit-calc(100% / 2);
 	text-transform: uppercase;
 }
 .client-list ul li img {
-	max-width: 130px;
+	/*max-width: 130px;*/
+  max-height: 34px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
 	opacity: 0.8;
@@ -1117,7 +1118,7 @@ width: -webkit-calc(100% / 2);
 	background: url(../images/product-bg.png) 50% 0 repeat;
 }
 .products .color-overlay {
-	background: rgba(39,144,176, 0.96);
+	background: rgba(120, 176, 158, 0.96);
 	margin-top: -100px;
 	padding-top: 100px;
 	padding-bottom: 70px;
@@ -1308,7 +1309,7 @@ width: -webkit-calc(100% / 2);
  **   SECTION:  TESTIMONIAL            -----
 -----------------------------------------*/
 .testimonial {
-	background: #dbbf56;
+	background: #7c97db;
 	padding-bottom: 90px;
 }
 #client-feedbacks .feedback-box {

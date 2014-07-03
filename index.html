@@ -32,7 +32,7 @@
 <link rel="stylesheet" href="css/responsive.css">
 
 <!-- WEBFONT -->
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Montserrat:700,400|Homemade+Apple' rel='stylesheet' type='text/css'>
+<!--<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Montserrat:700,400|Homemade+Apple' rel='stylesheet' type='text/css'>-->
 
 <!--[if lt IE 9]>
 			<script src="js/html5shiv.js"></script>
@@ -40,7 +40,7 @@
 		<![endif]-->
 
 <!-- JQUERY -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 </head>
 
 
@@ -67,20 +67,20 @@
 				<span class="icon-bar"></span>
 				</button>
 				<a href="./" class="navbar-brand">
-				<img src="images/logo.png" alt="Zerif">
+				<img src="images/logo.png" alt="Zerif" style="height: 40px;">
 				</a>
 			</div>
 			<nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" style="height: 1px;">
 			<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
 				<li><a href="#home">首页</a></li>
 				<li><a href="#focus">聚焦</a></li>
-				<li><a href="#works">Works</a></li>
+				<li><a href="#works">实例</a></li>
 				<li><a href="#aboutus">关于我们</a></li>
 				<li><a href="#team">团队</a></li>
-				<li><a href="#pricingtable">Pricing</a></li>
-				<li><a href="#features">Features</a></li>
-				<li><a href="#products">Products</a></li>
-				<li><a href="#testimonials">Testimonials</a></li>
+				<li><a href="#pricingtable">价格</a></li>
+				<li><a href="#features">特点</a></li>
+				<li><a href="#products">产品</a></li>
+				<li><a href="#testimonials">致谢</a></li>
 				<li><a href="#contact">联系我们</a></li>
 			</ul>
 			</nav>
@@ -96,8 +96,8 @@
 		
 		<!-- CALL TO ACTION BUTTONS -->
 		<div class="buttons">
-			<a href="#" class="btn btn-primary custom-button red-btn">Our Works</a>
-			<a href="#" class="btn btn-primary custom-button green-btn">Our Packages</a>
+			<a href="#focus" class="btn btn-primary custom-button red-btn">聚焦</a>
+			<a href="#products" class="btn btn-primary custom-button green-btn">产品</a>
 		</div>
 		
 		<!-- 3 SHORT MESSAGE ABOUT COMPANY -->
@@ -114,12 +114,12 @@
 			</div>
       <div class="col-lg-3 col-sm-3">
         <div class="short-text">
-          <i class="fa fa-cloud"></i> &nbsp;云支持
+          <i class="fa fa-cloud"></i> &nbsp;云计算支持
         </div>
       </div>
       <div class="col-lg-3 col-sm-3">
         <div class="short-text">
-          <i class="fa fa-list"></i> &nbsp;分析与挖掘
+          <i class="fa fa-list"></i> &nbsp;分析与挖掘支持
         </div>
       </div>
 		</div>
@@ -138,7 +138,7 @@
 	<div class="section-header">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">我们聚焦</h2>
+		<h2 class="dark-text">聚焦</h2>
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6>
@@ -151,65 +151,96 @@
 	<div class="row">
 		
 		<!-- FIRST FOCUS BOXES -->
-		<div class="col-lg-3 col-sm-3 focus-box red">
+		<div class="col-lg-2 col-sm-2 focus-box red">
 			<div class="service-icon">
-				<i class="pixeden pd-icon-monitor"></i> <!-- FOCUS ICON-->
+				<i class="pixeden pd-icon-clock"></i> <!-- FOCUS ICON-->
 			</div>
-			<h5 class="red-border-bottom">Web Design</h5> <!-- FOCUS HEADING -->
+			<h5 class="red-border-bottom">快速</h5> <!-- FOCUS HEADING -->
 			<p> <!-- FOCUS DESCRIPTION -->
-				 Created cattle form fruit. Saying from given together face without waters, whose. Second first. Face it saw give creature was thing. Over upon is brought. Him you'll above kind set
+				200ms的服务端响应设计 <br/>
+        MQ <br/>
+        Cache
 			</p>
 		</div>
 		<!-- / END FIRST FOCUS BOX. Other boxes has same format -->
 		
-		<div class="col-lg-3 col-sm-3 focus-box green">
+		<div class="col-lg-2 col-sm-2 focus-box yellow">
 			<div class="service-icon">
-				<span class="pixeden pd-icon-camera"></span>
+				<span class="pixeden pd-icon-bag"></span>
 			</div>
-			<h5 class="green-border-bottom">Photography</h5>
+			<h5 class="yellow-border-bottom">简单</h5>
 			<p>
-				 Created cattle form fruit. Saying from given together face without waters, whose. Second first. Face it saw give creature was thing. Over upon is brought. Him you'll above kind set
+				轻量级开发模式 <br/>
+        轻量级语言 <br/>
+        RESTfullAPI + JSON
 			</p>
 		</div>
 		
-		<div class="col-lg-3 col-sm-3 focus-box blue">
+		<div class="col-lg-2 col-sm-2 focus-box blue">
 			<div class="service-icon">
-				<i class="pixeden pd-icon-email-marketing"></i>
+				<i class="pixeden pd-icon-compas"></i>
 			</div>
-			<h5 class="blue-border-bottom">Email Marketing</h5>
+			<h5 class="red-border-bottom">可靠</h5>
 			<p>
-				 Created cattle form fruit. Saying from given together face without waters, whose. Second first. Face it saw give creature was thing. Over upon is brought. Him you'll above kind set
+				全方位的Scale-out <br/>
+        数据的replica
 			</p>
 		</div>
 		
-		<div class="col-lg-3 col-sm-3 focus-box yellow">
+		<div class="col-lg-2 col-sm-2 focus-box green">
 			<div class="service-icon">
-				<i class="pixeden pd-icon-check"></i>
+				<i class="pixeden pd-icon-notes"></i>
 			</div>
-			<h5 class="yellow-border-bottom">SEO &amp; SMM</h5>
+			<h5 class="green-border-bottom">易用</h5>
 			<p>
-				 Created cattle form fruit. Saying from given together face without waters, whose. Second first. Face it saw give creature was thing. Over upon is brought. Him you'll above kind set
+				模块化设计 API驱动开发 <br/>
+        外部连接（SSO，ETL） <br/>
+        Client端SDK
 			</p>
 		</div>
-	</div>
+
+    <div class="col-lg-2 col-sm-2 focus-box blue">
+      <div class="service-icon">
+        <i class="pixeden pd-icon-lock"></i>
+      </div>
+      <h5 class="blue-border-bottom">安全</h5>
+      <p>
+        netsparker专业版的测试 <br/>
+        IPA安全评价基准指导思想
+      </p>
+    </div>
+
+    <div class="col-lg-2 col-sm-2 focus-box yellow">
+      <div class="service-icon">
+        <i class="pixeden pd-icon-view"></i>
+      </div>
+      <h5 class="yellow-border-bottom">先进</h5>
+      <p>
+        先进的概念 <br/>
+        先进的技术
+      </p>
+    </div>
+
+  </div>
 	<!-- / END 4 FOCUS BOXES -->
 	
 	<!-- OTHER FOCUSES -->
 	<div class="other-focuses">
-		<h5><span class="section-footer-title">ALSO WE FOCUS ON</span></h5>
+		<h5><span class="section-footer-title">同样，我们也关注这些内容</span></h5>
 	</div>
 	
 	<!-- OTHER FOCUS LIST -->
 	<div class="other-focus-list">
 		<ul>
-			<li><i class="icon-fontawesome-webfont-8"></i>WEB APPLICATIONS</li>
-			<li><i class="icon-fontawesome-webfont-267"></i>SEARCH ENGINE OPTIMIZATION</li>
-			<li><i class="icon-fontawesome-webfont-75"></i>CLOUD STORAGE</li>
-			<li><i class="icon-fontawesome-webfont-358"></i>Project Management</li>
-			<li><i class="icon-fontawesome-webfont-102"></i>IOS APP</li>
-			<li><i class="icon-fontawesome-webfont-328"></i>ANDROID APP</li>
-			<li><i class="icon-fontawesome-webfont-195"></i>WINDOWS APP</li>
-			<li><i class="icon-fontawesome-webfont-297"></i>UX STRATEGY</li>
+      <li><i class="fa fa-globe"></i>WEB 应用开发</li>
+      <li><i class="fa fa-apple"></i>IOS 应用开发</li>
+      <li><i class="fa fa-android"></i>Android 应用开发</li>
+      <li><i class="fa fa-windows"></i>WindowsPhone 应用开发</li>
+      <li><i class="fa fa-wechat"></i>微信 应用开发</li>
+      <li><i class="fa fa-cloud"></i>云计算支持</li>
+      <li><i class="fa fa-database"></i>大数据支持</li>
+      <li><i class="fa fa-cubes"></i>数据分析，挖掘</li>
+      <li><i class="fa fa-mobile"></i>移动支付</li>
 		</ul>
 	</div> <!-- / END OTHER FOCUS LIST -->
 </div> <!-- / END CONTAINER -->
@@ -241,11 +272,11 @@
 	<div class="section-header">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Portfolio</h2>
+		<h2 class="dark-text">应用实例</h2>
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6>
-			We have designed and developed many awesome products. Just take a look. 
+			基于该平台，我们研发出了多款自己的产品，同时也使用该平台开发过多个项目。
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
@@ -259,11 +290,11 @@
 		
         <!-- PROJECT -->	
         <li>
-        <a href="project.html" class="more"><img src="images/portfolio/1.jpg"  alt="project"/>
+        <a href="project.html" class="more"><img src="images/portfolio/1.png"  alt="project"/>
 			<div class="project-info">
 				<div class="project-details">
 					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
+            Diandian餐饮系统</h5>
 					<div class="details white-text">
 						Web Design
 					</div>
@@ -275,11 +306,11 @@
         
         <!-- PROJECT -->	
         <li>
-        <a href="project.html" class="more"><img src="images/portfolio/2.jpg" alt="project" />
+        <a href="project.html" class="more"><img src="images/portfolio/2.png" alt="project" />
 			<div class="project-info">
 				<div class="project-details">
 					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
+					连锁店沟通工具</h5>
 					<div class="details white-text">
 						Web Design
 					</div>
@@ -291,11 +322,11 @@
 
         <!-- PROJECT -->	
         <li>
-        <a href="project.html" class="more"><img src="images/portfolio/3.jpg"  alt="project"/>
+        <a href="project.html" class="more"><img src="images/portfolio/3.png"  alt="project"/>
 			<div class="project-info">
 				<div class="project-details">
 					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
+					企业内知识积累</h5>
 					<div class="details white-text">
 						Web Design
 					</div>
@@ -307,11 +338,11 @@
         
 		<!-- PROJECT -->	
         <li data-scrollreveal="enter right after 0s over 1s">
-        <a href="project.html" class="more"><img src="images/portfolio/4.jpg"  alt="project"/>
+        <a href="project.html" class="more"><img src="images/portfolio/4.png"  alt="project"/>
 			<div class="project-info">
 				<div class="project-details">
 					<h5 class="white-text red-border-bottom">
-					Project Title </h5>
+					优衣库店铺情报共享</h5>
 					<div class="details white-text">
 						Web Design
 					</div>
@@ -323,7 +354,7 @@
         
         <!-- PROJECT -->	
         <li>
-        <a href="project.html" class="more"><img src="images/portfolio/5.jpg" alt="project"/>
+        <a href="project.html" class="more"><img src="images/portfolio/5.png" alt="project"/>
 			<div class="project-info">
 				<div class="project-details">
 					<h5 class="white-text red-border-bottom">
@@ -475,11 +506,11 @@
 	<div class="section-header">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="white-text">About US</h2>
+		<h2 class="white-text">关于我们</h2>
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6 class="white-text">
-				We design &amp; develop qaulity products to help small &amp; medium level business.
+      我们在打造属于自己的平台。我们年轻，但我们有激情。
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
@@ -490,7 +521,7 @@
 		<!-- COLUMN 1 - BIG MESSAGE ABOUT THE COMPANY-->
 		<div class="col-lg-4 col-md-4 column">
 			<div class="big-intro">
-				 Developing Amazing Things with Passion since 2002.
+				 Developing Amazing Things with Passion since 2014.
 			</div>
 		</div>
 		
@@ -557,18 +588,16 @@
 
 	<!-- CLIENTS -->
 	<div class="our-clients">
-		<h5><span class="section-footer-title">OUR HAPPY CLIENTS</span></h5>
+		<h5><span class="section-footer-title">合作伙伴</span></h5>
 	</div>
 	<!-- CLIENT LIST -->
 	<div class="client-list">
 		<ul>
+      <li><a href="#"><img src="images/clients/2.png" alt="Client 2"></a></li>
+      <li><a href="#"><img src="images/clients/3.png" alt="Client 3"></a></li>
 			<li><a href="#"><img src="images/clients/1.png" alt="Client 1"></a></li>
-			<li><a href="#"><img src="images/clients/2.png" alt="Client 2"></a></li>
-			<li><a href="#"><img src="images/clients/3.png" alt="Client 3"></a></li>
-			<li><a href="#"><img src="images/clients/1.png" alt="Client 1"></a></li>
+      <li><a href="#"><img src="images/clients/5.png" alt="Client 5"></a></li>
 			<li><a href="#"><img src="images/clients/4.png" alt="Client 4"></a></li>
-			<li><a href="#"><img src="images/clients/5.png" alt="Client 5"></a></li>
-			<li><a href="#"><img src="images/clients/6.png" alt="Client 6"></a></li>
 		</ul>
 	</div> <!-- / END CLIENT LIST -->
 </div> <!-- / END CONTAINER -->
@@ -650,7 +679,7 @@
 	<div class="section-header">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Our Team</h2>
+		<h2 class="dark-text">团队</h2>
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6>
@@ -668,17 +697,17 @@
 				<img src="images/team/pic1.jpg" alt=""> <!-- MEMBER PROFILE PIC -->
 				</figure>
 				<div class="member-details">
-					<h5 class="dark-text red-border-bottom">Jason Daniels</h5>
+					<h5 class="dark-text red-border-bottom">周玉杰</h5>
 					<div class="position">
-						Founder
+						创始人
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
-						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
-						<li><a href=""><i class="icon-behance"></i></a></li>
-						<li><a href=""><i class="icon-dribbble"></i></a></li>
+						<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href=""><i class="fa fa-wechat"></i></a></li>
+						<li><a href=""><i class="fa fa-weibo"></i></a></li>
+						<li><a href=""><i class="fa fa-github-alt"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
@@ -696,17 +725,17 @@
 				<img src="images/team/pic2.jpg" alt="">
 				</figure>
 				<div class="member-details">
-					<h5 class="dark-text green-border-bottom">Patricia Medina</h5>
+					<h5 class="dark-text green-border-bottom">罗 &nbsp; 浩</h5>
 					<div class="position">
-						Senior Desigener
+            创始人
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
-						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
-						<li><a href=""><i class="icon-behance"></i></a></li>
-						<li><a href=""><i class="icon-linkedin"></i></a></li>
+            <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href=""><i class="fa fa-wechat"></i></a></li>
+            <li><a href=""><i class="fa fa-weibo"></i></a></li>
+            <li><a href=""><i class="fa fa-github-alt"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
@@ -723,17 +752,17 @@
 				<img src="images/team/pic3.jpg" alt="">
 				</figure>
 				<div class="member-details">
-					<h5 class="dark-text blue-border-bottom">Eugene Lane</h5>
+					<h5 class="dark-text blue-border-bottom">邵亚平</h5>
 					<div class="position">
-						Lead Developer
+            创始人
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
-						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
-						<li><a href=""><i class="icon-behance"></i></a></li>
-						<li><a href=""><i class="icon-linkedin"></i></a></li>
+            <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href=""><i class="fa fa-wechat"></i></a></li>
+            <li><a href=""><i class="fa fa-weibo"></i></a></li>
+            <li><a href=""><i class="fa fa-github-alt"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
@@ -750,17 +779,17 @@
 				<img src="images/team/pic4.jpg" alt="">
 				</figure>
 				<div class="member-details">
-					<h5 class="dark-text yellow-border-bottom">Kathy Hudson</h5>
+					<h5 class="dark-text yellow-border-bottom">李 &nbsp; 林</h5>
 					<div class="position">
-						Art Director
+            创始人
 					</div>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
-						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
-						<li><a href=""><i class="icon-behance"></i></a></li>
-						<li><a href=""><i class="icon-linkedin"></i></a></li>
+            <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href=""><i class="fa fa-wechat"></i></a></li>
+            <li><a href=""><i class="fa fa-weibo"></i></a></li>
+            <li><a href=""><i class="fa fa-github-alt"></i></a></li>
 					</ul>
 				</div>
 				<div class="details">
@@ -770,114 +799,7 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class="col-lg-3 col-sm-3">
-			<div class="team-member">
-				<figure class="profile-pic">
-				<img src="images/team/pic5.jpg" alt="">
-				</figure>
-				<div class="member-details">
-					<h5 class="dark-text red-border-bottom">Vincent Mccoy</h5>
-					<div class="position">
-						Project Manager
-					</div>
-				</div>
-				<div class="social-icons">
-					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
-						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
-						<li><a href=""><i class="icon-behance"></i></a></li>
-						<li><a href=""><i class="icon-dribbble"></i></a></li>
-					</ul>
-				</div>
-				<div class="details">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
-					</p>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-lg-3 col-sm-3">
-			<div class="team-member">
-				<figure class="profile-pic">
-				<img src="images/team/pic6.jpg" alt="">
-				</figure>
-				<div class="member-details">
-					<h5 class="dark-text green-border-bottom">Gary Morrison</h5>
-					<div class="position">
-						Photographer
-					</div>
-				</div>
-				<div class="social-icons">
-					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
-						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
-						<li><a href=""><i class="icon-behance"></i></a></li>
-						<li><a href=""><i class="icon-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="details">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
-					</p>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-lg-3 col-sm-3">
-			<div class="team-member">
-				<figure class="profile-pic">
-				<img src="images/team/pic7.jpg" alt="">
-				</figure>
-				<div class="member-details">
-					<h5 class="dark-text blue-border-bottom">Patrick Sanchez</h5>
-					<div class="position">
-						Business Development
-					</div>
-				</div>
-				<div class="social-icons">
-					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
-						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
-						<li><a href=""><i class="icon-behance"></i></a></li>
-						<li><a href=""><i class="icon-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="details">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
-					</p>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-lg-3 col-sm-3">
-			<div class="team-member">
-				<figure class="profile-pic">
-				<img src="images/team/pic8.jpg" alt="">
-				</figure>
-				<div class="member-details">
-					<h5 class="dark-text yellow-border-bottom">Rachel Rogers</h5>
-					<div class="position">
-						Account Manager
-					</div>
-				</div>
-				<div class="social-icons">
-					<ul>
-						<li><a href=""><i class="icon-facebook"></i></a></li>
-						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
-						<li><a href=""><i class="icon-behance"></i></a></li>
-						<li><a href=""><i class="icon-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="details">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
-					</p>
-				</div>
-			</div>
-		</div>
+
 	</div> <!-- / END TEAM MEMBER LIST -->
 	
 </div> <!-- / END CONTAINER -->
@@ -1015,11 +937,11 @@
 	<div class="section-header">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">Features</h2>
+		<h2 class="dark-text">特点</h2>
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6>
-			We design &amp; develop qaulity products to help small &amp; medium level business.
+			我们设计 &amp; 开发 Light 平台，及平台上的企业产品
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
@@ -1035,9 +957,10 @@
 				<div class="feature-icon">
 					<i class="icon-heart-1"></i>
 				</div>
-				<h5>Design with Love</h5>
+				<h5>快速开发</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					平台简化了数据存储的设计和定义过程。完善的企业应用模块。Web，IOS，Android界面模板及开发框架。
+          由平台吸收认证，安全，性能方面的考量。拥有数据连接功能，能够快速与现有系统进行连接。分析框架。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1047,9 +970,10 @@
 				<div class="feature-icon">
 					<i class="icon-bulb"></i>
 				</div>
-				<h5>Creative Features</h5>
+				<h5>快速部署</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					从硬件设备的导入，部署的作业中解放出来。
+          自动构筑，自动部署，平滑扩展。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1059,9 +983,9 @@
 				<div class="feature-icon">
 					<i class="icon-settings-1"></i>
 				</div>
-				<h5>Thousands of Options</h5>
+				<h5>无需专业团队维护</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					平台拥有完善的Ops功能，无需组件专业的维护团队。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1074,9 +998,9 @@
 				<div class="feature-icon">
 					<i class="icon-params"></i>
 				</div>
-				<h5>Easy to Customize</h5>
+				<h5>先进的技术</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					先进的架构，新的概念及技术。<br/>全机能基于API互联互通。 <br/>经过产品的验证的，解决了技术课题，保证稳定可靠。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1086,9 +1010,9 @@
 				<div class="feature-icon">
 					<i class="icon-handle-streamline-vector"></i>
 				</div>
-				<h5>Clean Strategy</h5>
+				<h5>移动开发支持</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					 简单易用的IOSSDK，与Light平台完美结合。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1098,9 +1022,9 @@
 				<div class="feature-icon">
 					<i class="icon-speech-streamline-talk-user"></i>
 				</div>
-				<h5>Awesome Support</h5>
+				<h5>整合软件开发的全过程</h5>
 				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Mock - 开发 - 部署 - 运用维护
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -1506,7 +1430,7 @@
         <div class="section-header">
 		
 		<!-- SECTION TITLE -->
-		<h2 class="white-text">Testimonials</h2>
+		<h2 class="white-text">致谢</h2>
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6 class="white-text">
@@ -1661,10 +1585,10 @@
 	<div class="row">
 		<div class="col-md-9">
 			<h3 class="white-text">
-			Hey, We're at the finishing line. Enjoyed the template? </h3>
+			以上是我们的产品我们的服务及团队介绍。</h3>
 		</div>
 		<div class="col-md-3">
-			<a href="" class="btn btn-primary custom-button red-btn">Purchase Now</a>
+			<a href="#contact" class="btn btn-primary custom-button red-btn">联系 我们</a>
 		</div>
 	</div>
 </div>
@@ -1747,7 +1671,7 @@
 	<div class="col-lg-3 col-sm-3 copyright">
 		<ul class="social">
 			<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-			<li><a href=""><i class="fa fa-git-square"></i></a></li>
+			<li><a href=""><i class="fa github-alt"></i></a></li>
 			<li><a href=""><i class="fa fa-weibo"></i></a></li>
 			<li><a href=""><i class="fa fa-weixin"></i></a></li>
 			<li><a href=""><i class="fa fa-tencent-weibo"></i></a></li>

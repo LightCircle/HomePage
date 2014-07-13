@@ -611,7 +611,7 @@ input:focus {
 .works {
 	padding-bottom: 100px;
 	background: #FFFFFF;
-	min-height: 800px;
+	/*min-height: 800px;*/
 }
 
 /* IMAGE GRID */

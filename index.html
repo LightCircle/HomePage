@@ -114,7 +114,7 @@
       </div>
       <div class="col-lg-3 col-sm-3">
         <div class="short-text">
-          <i class="fa fa-list"></i> &nbsp;非定型数据的分析与挖掘
+          <i class="fa fa-bar-chart-o"></i> &nbsp;非定型数据的分析与挖掘
         </div>
       </div>
 		</div>
@@ -551,7 +551,7 @@
 		
 		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
 		<h6>
-			我们为您提供大量企业应用所需的子系统 & 模块
+			我们为您提供企业应用所需的子系统 & 模块
 		</h6>
 	</div>
 	<!-- / END SECTION HEADER -->
@@ -565,16 +565,13 @@
 			<!-- FEATURE -->
 			<div class="feature">
 				<div class="feature-icon">
-					<i class="icon-heart-1"></i>
+					<i class="fa fa-bar-chart-o"></i>
 				</div>
 				<h5>数据统计与分析</h5>
 				<p>
           我们可以对结构化数据进行统计与分析（如：购买履历，会员情报，访问日志等），
           同时，擅长对非结构化数据进行分析（如：文本文件，电子邮件，营业日报，呼叫中心日志等）。
           平台提供的可视化展现方式，能让业务人员轻松掌握数据的状态。
-          <br/>
-          <img src="images/feature/001.png" style="height: 68px;-webkit-box-shadow:2px 2px 5px #d9d9db;">
-          <img src="images/feature/002.png" style="height: 68px;-webkit-box-shadow:2px 2px 5px #d9d9db;">
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -582,13 +579,14 @@
 			<!-- FEATURE -->
 			<div class="feature">
 				<div class="feature-icon">
-					<i class="icon-bulb"></i>
+					<i class="fa fa-search"></i>
 				</div>
 				<h5>全文搜索与相似性检索</h5>
 				<p>
-          在平台上可以对全文检索中得分词器，文本提取器，相似度算法，索引的维护等
-          子功能进行自由的定制，非常容易实现检索范围的限定及权限控制等企业应用的需求。
-          实现了高度可定制的独有搜索引擎。
+          我们的搜索引擎可以对数据中的文本，文件中的文本进行高速检索。
+          根据业务需求，还可以对全文检索中的分词器，文本提取器，相似度算法，索引维护等子模块进行自由的定制。
+          例如，权限的检查及搜索范围的限定等，在平台上实现不仅不会影响性能，而且也变得非常容易。
+          可自定义的用户词库，可以进一步提高对专业领域文章的处理精度。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -596,14 +594,44 @@
 			<!-- FEATURE -->
 			<div class="feature">
 				<div class="feature-icon">
-					<i class="icon-settings-1"></i>
+					<i class="fa fa-database"></i>
 				</div>
-				<h5>无需专业团队维护</h5>
+				<h5>DataRider</h5>
 				<p>
-					平台拥有完善的Ops功能，无需组件专业的维护团队。
+          DataRider可以轻松驾驭复杂的数据结构。包括数据结构的定义，数据校验的定义，触发器等。
+          数据的定义不再仅限于扁平的单层结构，还支持内嵌子集，让数据结构变得易于理解并减少关联。
+          数据结构的定义及修改本身变得非常简单，仅需在管理画面上，简单地几步操作即可完成。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
+
+      <!-- FEATURE -->
+      <div class="feature">
+        <div class="feature-icon">
+          <i class="fa fa-retweet"></i>
+        </div>
+        <h5>ETL</h5>
+        <p>
+          提供高度可定制的数据输出，变换，导入功能，使企业内系统间或企业内外部数据的传输变得非常简单。
+          该功能还能完成从CSV,Excel等文件里加载数据，方便了企业既存的大量文件格式数据的整合。
+          与平台提供的定时处理功能结合，还可实现定期数据传输，及时时的数据传输。
+        </p>
+      </div>
+      <!-- / END FEATURE -->
+
+      <!-- FEATURE -->
+      <div class="feature">
+        <div class="feature-icon">
+          <i class="fa fa-lock"></i>
+        </div>
+        <h5>灵活的访问控制</h5>
+        <p>
+          平台的权限是访问控制的最小单位，除了平台提供的默认权限外，可以通过管理画面自由添加。
+          角色是权限的自由组合。对与需要访问控制的资源，可以赋予某种权限，也可以赋予某种角色，或权限与角色的组合。
+          管理画面上的功能模块，也可以通过简单的开关控制，来限定可以使用的人。
+        </p>
+      </div>
+      <!-- / END FEATURE -->
 		</div> <!-- / FEATURES COLUMN LEFT -->
 		
 		<!-- FEATURES COLUMN RIGHT -->
@@ -611,11 +639,13 @@
 			<!-- FEATURE -->
 			<div class="feature">
 				<div class="feature-icon">
-					<i class="icon-params"></i>
+					<i class="fa fa-share-alt"></i>
 				</div>
-				<h5>先进的技术</h5>
+				<h5>丰富的API</h5>
 				<p>
-					先进的架构，新的概念及技术。<br/>全机能基于API互联互通。 <br/>经过产品的验证的，解决了技术课题，保证稳定可靠。
+					数据接口API：指通过DataRider定义的数据，拥有的一套默认的增删改查API，可以对数据进行通常操作。
+          平台固有API：这些API可以访问平台的企业功能模块，及底层的核心功能模块等。
+          自定义API：上述标准API无法满足需求，或需要组合多个API一起使用时，也可以通过管理画面自行定义API，来满足业务需求。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -623,11 +653,13 @@
 			<!-- FEATURE -->
 			<div class="feature">
 				<div class="feature-icon">
-					<i class="icon-handle-streamline-vector"></i>
+					<i class="fa fa-cubes"></i>
 				</div>
-				<h5>移动开发支持</h5>
+				<h5>可扩展的标准业务模块</h5>
 				<p>
-					 简单易用的IOSSDK，与Light平台完美结合。
+					包括用户管理，组管理，Master数据管理，文件管理，标签管理，图像视频管理，地址管理等业务模块。
+          并且各个模块都有高度的可扩展性，来满足不同企业，不同业务的需求。
+          这些功能可以不仅可以通过API来访问，而且在管理画面里提供了操作界面，供系统管理人员使用。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
@@ -635,16 +667,47 @@
 			<!-- FEATURE -->
 			<div class="feature">
 				<div class="feature-icon">
-					<i class="icon-speech-streamline-talk-user"></i>
+					<i class="fa fa-dashboard"></i>
 				</div>
-				<h5>整合软件开发的全过程</h5>
+				<h5>Multi-tenant, Multi-app, Multi-language支持</h5>
 				<p>
-					Mock - 开发 - 部署 - 运用维护
+          Multi-tenant的支持，可以帮助集团公司，实现内部公司之间的数据及应用的相对独立。
+          Multi-app的支持，帮助企业在平台上开发各种独立的业务应用。app间可以实现数据的共享，也可以实现数据的独立。
+          Multi-language的支持，允许用户根据自己的需求自由切换界面语言。
 				</p>
 			</div>
 			<!-- / END FEATURE -->
-			
-		</div> <!-- / END FEATURES COLUMN RIGHT -->
+
+      <!-- FEATURE -->
+      <div class="feature">
+        <div class="feature-icon">
+          <i class="fa fa-gears"></i>
+        </div>
+        <h5>运维功能</h5>
+        <p>
+          平台内建支持服务器系统资源的监视，统计功能，当系统出现异常时会及时给出警报。
+          平台提供了自动构筑，自动部署，自动扩展功能。不仅构筑部署升级等作业变得简单，还很大程度上减少了资源的浪费。
+          例如：系统导入前期的服务器规模评估不再显得非常重要，完全可以根据具体使用状况及时调整。
+          平台的备份功能也非常强大，可以自由指定需进行备份的数据，来保护数据的安全及完整性。
+        </p>
+      </div>
+      <!-- / END FEATURE -->
+
+      <!-- FEATURE -->
+      <div class="feature">
+        <div class="feature-icon">
+          <i class="fa fa-star-o"></i>
+        </div>
+        <h5>流行元素的支持</h5>
+        <p>
+          信息技术的革新速度非常快，需要企业及时对这些技术做出反应。平台的借口可以非常容易的支持这些新的元素。
+          如，微信应用，微博应用，在线支付，IOS的APN通知，SMS通知等。
+          平台提供的SSO功能还可以轻松实现与外部系统的对接。
+        </p>
+      </div>
+      <!-- / END FEATURE -->
+
+    </div> <!-- / END FEATURES COLUMN RIGHT -->
 	</div> <!-- / END FEATURES -->
 </div> <!-- / END CONTAINER -->
 </section> <!-- / END FEATURES SECTION -->

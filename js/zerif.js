@@ -43,7 +43,8 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 $(document).ready(function () {
   $('.main-nav-list').onePageNav({
     scrollThreshold: 0.2, // Adjust if Navigation highlights too early or too late
-    scrollOffset: 75 //Height of Navigation Bar
+    scrollOffset: 75, //Height of Navigation Bar
+    filter: ':not(.external)'
   });
 
   // Sticky Header - http://jqueryfordesigners.com/fixed-floating-elements/         
